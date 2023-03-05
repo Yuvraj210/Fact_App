@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "949247854706",
+    "project_id": "yuvi-factsapp",
+    "storage_bucket": "yuvi-factsapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949247854706:android:38a2e0442bedcf998edaeb",
+        "android_client_info": {
+          "package_name": "social.fact.yuvi_factsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949247854706-qiltmuvc0eptfudhvejitsp5jsdf35ko.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6Wvffy_hhXvXdyrL-rsFkNkYJwFJUPE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949247854706-qiltmuvc0eptfudhvejitsp5jsdf35ko.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

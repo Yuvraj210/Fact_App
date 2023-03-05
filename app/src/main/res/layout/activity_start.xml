@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <androidx.cardview.widget.CardView
+            android:id="@+id/science"
+            android:layout_width="match_parent"
+            android:layout_height="223sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+          >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/science_fact"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Science Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                   android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/AmazingFact"
+            android:layout_width="match_parent"
+            android:layout_height="210sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="5dp"
+                    android:src="@drawable/amazing_fact"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Amazing Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/human_body"
+            android:layout_width="match_parent"
+            android:layout_height="240sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   android:layout_marginBottom="50dp"
+                    android:src="@drawable/humanbody"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Human Body Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/healthTip"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="43dp"
+                    android:src="@drawable/health"/>
+
+
+                <TextView
+                    android:id="@+id/healthFact"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Health Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Lifefact"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="43dp"
+                    android:src="@drawable/lifefact"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Life Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Sun"
+            android:layout_width="match_parent"
+            android:layout_height="240sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sunfact"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Sun Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Mobile"
+            android:layout_width="match_parent"
+            android:layout_height="210sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="38dp"
+                    android:src="@drawable/mobile"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Mobile Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Moon"
+            android:layout_width="match_parent"
+            android:layout_height="270sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="13dp"
+                    android:src="@drawable/moon"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#F57C00"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="Moon Facts"
+                    android:textColor="#FFEA00"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Saicologi"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="43dp"
+                    android:src="@drawable/saikalogi"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text=" Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/khoj"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/khooj"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="discovery Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Do_You_Know"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="45dp"
+                    android:src="@drawable/doyouknow"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Do You Know"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/worldFact"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardBackgroundColor="@color/black"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="35dp"
+                    android:src="@drawable/worldfact"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="World Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/technology"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="35dp"
+                    android:src="@drawable/technology"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Technology Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_margin="10dp"
+            app:cardElevation="20dp"
+            app:cardCornerRadius="20dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="45dp"
+                    android:src="@drawable/space"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#F57C00"
+                    android:text="Space Facts"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FFEA00"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="25sp"/>
+
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
